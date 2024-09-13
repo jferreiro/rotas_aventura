@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rotas_aventura/static/css/main.d9911d2b.css",
+    "main.js": "/rotas_aventura/static/js/main.e264ae29.js",
+    "index.html": "/rotas_aventura/index.html",
+    "main.d9911d2b.css.map": "/rotas_aventura/static/css/main.d9911d2b.css.map",
+    "main.e264ae29.js.map": "/rotas_aventura/static/js/main.e264ae29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9911d2b.css",
+    "static/js/main.e264ae29.js"
+  ]
+}
