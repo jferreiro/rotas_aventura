@@ -2,74 +2,94 @@
 .tour-form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-  }
-  
-  .form-group {
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-group {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-  }
-  
-  .form-group label {
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .required::after {
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+.required::after {
     content: ' *';
     color: red;
-  }
-  
-  .form-input {
-    padding: 10px;
+}
+
+.form-input {
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.form-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
     outline: none;
-  }
-  
-  .form-input:focus {
-    border-color: #333;
-  }
-  
-  .form-input.error {
-    border-color: red;
-  }
-  
-  .error-message {
-    color: red;
-    font-size: 0.9rem;
-    margin-top: 5px;
-  }
-  
-  .submit-button {
-    padding: 10px 20px;
+}
+
+.submit-button {
+    padding: 12px 25px;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  .submit-button:hover {
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
     background-color: #0056b3;
-  }
-  
-  .submit-button-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Media query for mobile devices */
-  @media (max-width: 768px) {
-    .tour-form {
-      padding: 10px;
-    }
-  
-    .form-input, .submit-button {
-      font-size: 0.9rem;
-      padding: 8px;
-    }
-  }
+}
+
+.tour-list {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour-list h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+    font-size: 1.5rem;
+}
+
+.tour-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tour-list li:last-child {
+    border-bottom: none;
+}
+
+.tour-list strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.tour-list p {
+    margin: 5px 0;
+    color: #555;
+}
