@@ -1,11 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TourForm from './TourForm';
+import LandingPage from './LandingPage'; // Optional placeholder
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello, Rotas & Aventura!</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {/* Landing Page Route */}
+          <Route path="/" element={<LandingPage />} />
+
+          {/* Tour Form Route */}
+          <Route path="/submit-tour/en" element={<TourForm />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,75 @@
+/* TourForm.css */
+.tour-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .required::after {
+    content: ' *';
+    color: red;
+  }
+  
+  .form-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: #333;
+  }
+  
+  .form-input.error {
+    border-color: red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .tour-form {
+      padding: 10px;
+    }
+  
+    .form-input, .submit-button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
