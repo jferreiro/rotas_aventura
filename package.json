@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Rotas & Aventura App",
   "main": "index.js",
-  "homepage": "https://jferreiro.github.io/rotas_aventura",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
