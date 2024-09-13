@@ -18,6 +18,11 @@
     max-width: 100%;
     border-radius: 8px;
     margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust to fit your preference */
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .form-header h2 {
