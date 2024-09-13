@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/rotas_aventura/static/css/main.d9911d2b.css",
-    "main.js": "/rotas_aventura/static/js/main.4b5f7d11.js",
-    "index.html": "/rotas_aventura/index.html",
-    "main.d9911d2b.css.map": "/rotas_aventura/static/css/main.d9911d2b.css.map",
-    "main.4b5f7d11.js.map": "/rotas_aventura/static/js/main.4b5f7d11.js.map"
+    "main.css": "./static/css/main.d9911d2b.css",
+    "main.js": "./static/js/main.4b5f7d11.js",
+    "index.html": "./index.html",
+    "main.d9911d2b.css.map": "./static/css/main.d9911d2b.css.map",
+    "main.4b5f7d11.js.map": "./static/js/main.4b5f7d11.js.map"
   },
   "entrypoints": [
     "static/css/main.d9911d2b.css",
